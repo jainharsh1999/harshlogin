@@ -20,7 +20,7 @@ from proj1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('project',include('proj1.urls')),
-    path('logingen/',loginregister.as_view()),
+    path('project/',include('proj1.urls')),
+    # path('logingen/',loginregister.as_view()),
     # path("api/",include('rest_framework.urls',namespace='rest_framework')),
 ]

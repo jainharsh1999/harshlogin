@@ -5,4 +5,6 @@ from proj1.views import *
 urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('login', login, name='login'),
+    path('register', register, name='register'),
+    
 ]
